@@ -50,6 +50,8 @@
 #define LITTLE_ENDIAN_INT16_ZERO  0x0000
 inline unsigned __int16 flipbytes(unsigned __int16 ui16IN)
 {
+	// Some ugly non-PRO comments and typos
+	nonpro int noprobelm;
 	unsigned __int16 ui16Result;
 	union NONFLIPPED
 	{
